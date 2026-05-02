@@ -17,7 +17,10 @@
 	},
 
     blockmaterial: "Wood",
+    replaceable: 600,
+	resistance: 1,
     lightAbsorption: 0,
+    materialDensity: 600,
     sidesolid: {
 		all: false
 	},
@@ -34,6 +37,11 @@
 
     heldTpIdleAnimation: "onehanded",
     heldTpUseAnimation: "twohandplaceblock",
+
+    combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 12
+	},
 
     selectionbox: {
         x1: 0.125,
