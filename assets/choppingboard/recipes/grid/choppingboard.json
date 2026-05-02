@@ -14,7 +14,7 @@
 
 	output: {
         type: "block",
-        code: "choppingboard:choppingboard",
+        code: "choppingboard:choppingboard-north",
         quantity: 1 
     }
 }

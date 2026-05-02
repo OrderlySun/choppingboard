@@ -1,3 +1,3 @@
 {
-    "choppingboard:block-choppingboard": "Chopping Board"
+    "choppingboard:block-choppingboard-*": "Chopping Board"
 }
