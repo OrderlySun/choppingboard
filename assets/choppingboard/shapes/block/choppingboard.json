@@ -1,0 +1,65 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "BoardTop",
+			"from": [ 2.0, 0.0, 3.0 ],
+			"to": [ 14.0, 1.0, 5.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 12.0, 1.0 ] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+				"south": { "texture": "#null", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "autoUv": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 12.0, 2.0 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 12.0, 2.0 ] }
+			}
+		},
+		{
+			"name": "BoardBottom",
+			"from": [ 2.0, 0.0, 11.0 ],
+			"to": [ 14.0, 1.0, 13.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "autoUv": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 12.0, 1.0 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 12.0, 2.0 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 12.0, 2.0 ] }
+			}
+		},
+		{
+			"name": "BoardMain",
+			"from": [ 4.0, 0.0, 5.0 ],
+			"to": [ 14.0, 1.0, 11.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "autoUv": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 6.0, 1.0 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "autoUv": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 6.0, 1.0 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 6.0 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 6.0 ] }
+			}
+		},
+		{
+			"name": "BoardHandle",
+			"from": [ 2.0, 0.0, 5.0 ],
+			"to": [ 3.0, 1.0, 11.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "autoUv": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 6.0, 1.0 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "autoUv": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 6.0, 1.0 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 6.0 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 6.0 ] }
+			}
+		}
+	]}

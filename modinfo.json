@@ -1,0 +1,14 @@
+{
+  "Type": "content",
+  "ModID": "choppingboard",
+  "Name": "ACA Chopping Board",
+  "Description": "Chopping board for ACA.",
+  "Version": "0.5",
+  "NetworkVersion": null,
+  "Website": "",
+  "Authors": ["OrderlySun", "l33tmaan"],
+  "Contributors": [""],
+  "Side": "Server",
+  "RequiredOnServer": true,
+  "Dependencies": {}
+}
