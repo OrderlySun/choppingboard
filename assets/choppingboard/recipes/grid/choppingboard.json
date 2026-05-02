@@ -1,6 +1,6 @@
 [
     {
-        "ingredientPattern": "PP,P_",
+        "ingredientPattern": "PP,PG",
         "enabled": true,
 
         "ingredients": {
@@ -8,6 +8,11 @@
                 "type": "item",
                 "code": "game:plank-*",
                 "name": "wood",
+                "quantity": 1
+            },
+            "G": {
+                "type": "item",
+                "code": "game:resin",
                 "quantity": 1
             }
         },
