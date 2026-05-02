@@ -1,0 +1,61 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"elements": [
+		{
+			"name": "BoardTop",
+			"from": [ 2.0, 0.0, 3.0 ],
+			"to": [ 14.0, 1.0, 5.0 ],
+			"faces": {
+				"north": { "texture": "#wood", "uv": [ 4.0, 0.0, 16.0, 1.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#wood", "uv": [ 11.0, 0.0, 13.0, 1.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#wood", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#wood", "uv": [ 3.0, 0.0, 5.0, 1.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#wood", "uv": [ 0.0, 0.0, 12.0, 2.0 ], "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#wood", "uv": [ 4.0, 0.0, 16.0, 2.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "BoardBottom",
+			"from": [ 2.0, 0.0, 11.0 ],
+			"to": [ 14.0, 1.0, 13.0 ],
+			"faces": {
+				"north": { "texture": "#wood", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "autoUv": false },
+				"east": { "texture": "#wood", "uv": [ 3.0, 0.0, 5.0, 1.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#wood", "uv": [ 0.0, 0.0, 12.0, 1.0 ], "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#wood", "uv": [ 11.0, 0.0, 13.0, 1.0 ], "autoUv": false },
+				"up": { "texture": "#wood", "uv": [ 0.0, 0.0, 12.0, 2.0 ] },
+				"down": { "texture": "#wood", "uv": [ 4.0, 0.0, 16.0, 2.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "BoardMain",
+			"from": [ 4.0, 0.0, 5.0 ],
+			"to": [ 14.0, 1.0, 11.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "autoUv": false },
+				"east": { "texture": "#wood", "uv": [ 5.0, 0.0, 11.0, 1.0 ], "autoUv": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "autoUv": false },
+				"west": { "texture": "#wood", "uv": [ 0.0, 0.0, 6.0, 1.0 ] },
+				"up": { "texture": "#wood", "uv": [ 2.0, 0.0, 12.0, 6.0 ], "autoUv": false },
+				"down": { "texture": "#wood", "uv": [ 4.0, 0.0, 14.0, 6.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "BoardHandle",
+			"from": [ 2.0, 0.0, 5.0 ],
+			"to": [ 3.0, 1.0, 11.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "autoUv": false },
+				"east": { "texture": "#wood", "uv": [ 0.0, 0.0, 6.0, 1.0 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "autoUv": false },
+				"west": { "texture": "#wood", "uv": [ 5.0, 0.0, 11.0, 1.0 ], "autoUv": false },
+				"up": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 6.0 ] },
+				"down": { "texture": "#wood", "uv": [ 15.0, 0.0, 16.0, 6.0 ], "autoUv": false }
+			}
+		}
+	]}
