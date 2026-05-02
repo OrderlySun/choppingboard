@@ -1,3 +1,15 @@
 {
-    "choppingboard:block-choppingboard-*": "Chopping Board"
+    "choppingboard:block-choppingboard-acacia-*": "Chopping Board (acacia)",
+    "choppingboard:block-choppingboard-aged-*": "Chopping Board (aged)",
+    "choppingboard:block-choppingboard-birch-*": "Chopping Board (birch)",
+    "choppingboard:block-choppingboard-oak-*": "Chopping Board (oak)",
+    "choppingboard:block-choppingboard-maple-*": "Chopping Board (maple)",
+    "choppingboard:block-choppingboard-pine-*": "Chopping Board (pine)",
+    "choppingboard:block-choppingboard-kapok-*": "Chopping Board (kapok)",
+    "choppingboard:block-choppingboard-baldcypress-*": "Chopping Board (baldcypress)",
+    "choppingboard:block-choppingboard-larch-*": "Chopping Board (larch)",
+    "choppingboard:block-choppingboard-redwood-*": "Chopping Board (redwood)",
+    "choppingboard:block-choppingboard-ebony-*": "Chopping Board (ebony)",
+    "choppingboard:block-choppingboard-walnut-*": "Chopping Board (walnut)",
+    "choppingboard:block-choppingboard-purpleheart-*": "Chopping Board (purpleheart)"
 }

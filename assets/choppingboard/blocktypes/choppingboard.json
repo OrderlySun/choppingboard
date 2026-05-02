@@ -3,6 +3,7 @@
     "behaviors": [ { "name": "HorizontalOrientable", "properties": { "dropBlockFace": "north" } }, { "name": "UnstableFalling" } ],
     "creativeinventory": { "general": ["*-north"] },
     "variantgroups": [
+        { "code": "wood", "states": ["acacia", "birch", "kapok", "maple", "oak", "pine", "aged", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart"] },
 		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
 	],
     "shapebytype": {
@@ -11,6 +12,11 @@
 		"*-south": { "base": "choppingboard:block/choppingboard", "rotateY": 180 },
 		"*-west": { "base": "choppingboard:block/choppingboard", "rotateY": 90 }
 	},
+    "texturesByType": {
+        "*": {
+		    "wood": { "base": "game:block/wood/planks/{wood}1" }
+        }
+    },
     "blockmaterial": "Wood",
     "replaceable": 600,
 	"resistance": 1,
