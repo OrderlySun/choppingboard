@@ -1,20 +1,20 @@
 {
-    ingredientPattern: "P",
-    enabled: true,
+    "ingredientPattern": "P",
+    "enabled": true,
 
-	ingredients: {
+	"ingredients": {
 		"P": {
-            type: "item",
-            code: "game:plank-*",
-            quantity: 2  },
+            "type": "item",
+            "code": "game:plank-*",
+            "quantity": 2  }
 	},
 
-	width: 1,
-	height: 1,
+	"width": 1,
+	"height": 1,
 
-	output: {
-        type: "block",
-        code: "choppingboard:choppingboard-north",
-        quantity: 1 
+	"output": {
+        "type": "block",
+        "code": "choppingboard:choppingboard-north",
+        "quantity": 1 
     }
 }

@@ -1,101 +1,79 @@
 {
-    code:"choppingboard",
-
-    "behaviors": [{name: "HorizontalOrientable", properties: { dropBlockFace: "north" }}, {name: "UnstableFalling"}],
-
+    "code": "choppingboard",
+    "behaviors": [ { "name": "HorizontalOrientable", "properties": { "dropBlockFace": "north" } }, { "name": "UnstableFalling" } ],
     "creativeinventory": { "general": ["*-north"] },
-
-    variantgroups: [
-		{ code:"side", loadFromProperties: "abstract/horizontalorientation" }
+    "variantgroups": [
+		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
 	],
-
     "shapebytype": {
-		"*-north": { base: "choppingboard:block/choppingboard", rotateY: 0 },
-		"*-east": { base: "choppingboard:block/choppingboard", rotateY: 270 },
-		"*-south": { base: "choppingboard:block/choppingboard", rotateY: 180 },
-		"*-west": { base: "choppingboard:block/choppingboard", rotateY: 90 }
+		"*-north": { "base": "choppingboard:block/choppingboard", "rotateY": 0 },
+		"*-east": { "base": "choppingboard:block/choppingboard", "rotateY": 270 },
+		"*-south": { "base": "choppingboard:block/choppingboard", "rotateY": 180 },
+		"*-west": { "base": "choppingboard:block/choppingboard", "rotateY": 90 }
 	},
-
-    blockmaterial: "Wood",
-    replaceable: 600,
-	resistance: 1,
-    lightAbsorption: 0,
-    materialDensity: 600,
-    sidesolid: {
-		all: false
+    "blockmaterial": "Wood",
+    "replaceable": 600,
+	"resistance": 1,
+    "lightAbsorption": 0,
+    "materialDensity": 600,
+    "sidesolid": {
+		"all": false
 	},
-	sideopaque: {
-		all: false
+	"sideopaque": {
+		"all": false
 	},
-
-    sounds: {
+    "sounds": {
         "place": "game:block/planks",
         "hit": "game:block/planks",
         "break": "game:block/planks",
         "walk": "game:walk/wood"
     },
-
-    heldTpIdleAnimation: "onehanded",
-    heldTpUseAnimation: "twohandplaceblock",
-
-    combustibleProps: {
-		burnTemperature: 600,
-		burnDuration: 12
+    "combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 12
 	},
-
-    selectionbox: {
-        x1: 0.125,
-        y1: 0,
-        z1: 0.1875,
-        x2: 0.875,
-        y2: 0.0625,
-        z2: 0.8125,
-        rotateYByType: {
-			"*-north": 0,
-			"*-east": 90,
-			"*-south": 0,
-			"*-west": 90
-		}
-    },
-	collisionbox: {
-        x1: 0.125,
-        y1: 0,
-        z1: 0.1875,
-        x2: 0.875,
-        y2: 0.0625,
-        z2: 0.8125,
-        rotateYByType: {
-			"*-north": 0,
-			"*-east": 90,
-			"*-south": 0,
-			"*-west": 90
-		}
-    },
-
-    guiTransform: {
-		translation: {
-            x: 0,
-            y: 3,
-            z: 0
+    "heldTpIdleAnimation": "onehanded",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "collisionSelectionBoxes": [
+        { 
+            "x1": 0.125,
+            "y1": 0,
+            "z1": 0.1875,
+            "x2": 0.875,
+            "y2": 0.0625,
+            "z2": 0.8125,
+            "rotateYByType": {
+                "*-north": 0,
+                "*-east": 90,
+                "*-south": 0,
+                "*-west": 90
+            }
+        }
+    ],
+    "guiTransform": {
+		"translation": {
+            "x": 0,
+            "y": 3,
+            "z": 0
         },
-		origin: {
-            x: 0.5,
-            y: 0.25,
-            z: 0.5
+		"origin": {
+            "x": 0.5,
+            "y": 0.25,
+            "z": 0.5
         },
-        scale: 1.6
+        "scale": 1.6
 	},
-    tpHandTransform: {
-		translation: {
-            x: -0.5,
-            y: -0.5,
-            z: 0
+    "tpHandTransform": {
+		"translation": {
+            "x": -0.5,
+            "y": -0.5,
+            "z": 0
         },
-		rotation: {
-            x: 90,
-            y: 0,
-            z: 0
+		"rotation": {
+            "x": 90,
+            "y": 0,
+            "z": 0
         },
-		scale: 1
-	},
+		"scale": 1
+	}
 }
