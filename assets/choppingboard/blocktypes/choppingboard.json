@@ -1,5 +1,8 @@
 {
     code:"choppingboard",
+
+    behaviors: [{name: "UnstableFalling"} ],
+
     creativeinventory: { "general": ["*"] },
 
     shape: {
@@ -7,6 +10,13 @@
     },
 
     blockmaterial: "Wood",
+    lightAbsorption: 0,
+    sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
     sounds: {
         "place": "game:block/planks",
         "hit": "game:block/planks",
@@ -18,8 +28,22 @@
     heldRightReadyAnimation: "heldblockready",
     heldTpUseAnimation: "twohandplaceblock",
 
-    selectionbox: { x1: 0.125, y1: 0, z1: 0.1875, x2: 0.875, y2: 0.0625, z2: 0.8125 },
-	collisionbox: { x1: 0.125, y1: 0, z1: 0.1875, x2: 0.875, y2: 0.0625, z2: 0.8125 },
+    selectionbox: {
+        x1: 0.125,
+        y1: 0,
+        z1: 0.1875,
+        x2: 0.875,
+        y2: 0.0625,
+        z2: 0.8125
+    },
+	collisionbox: {
+        x1: 0.125,
+        y1: 0,
+        z1: 0.1875,
+        x2: 0.875,
+        y2: 0.0625,
+        z2: 0.8125
+    },
 
     tpHandTransform: {
         translation: {
