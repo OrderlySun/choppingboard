@@ -6,18 +6,18 @@
 		"groupBy": ["choppingboard:choppingstone-{stone}-north"]
 	},
     "variantgroups": [
-        { "code": "stone", "states": ["chert", "granite", "andesite", "basalt", "obsidian", "peridotite"] },
+        { "code": "stone", "states": ["chert", "granite", "andesite", "basalt", "peridotite"] },
 		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
 	],
     "shapebytype": {
 		"*-north": { "base": "choppingboard:block/choppingstone", "rotateY": 0 },
-		"*-east": { "base": "choppingboard:block/choppingstone", "rotateY": 270 },
-		"*-south": { "base": "choppingboard:block/choppingstone", "rotateY": 180 },
+		"*-east": { "base": "choppingboard:block/choppingstone", "rotateY": 90 },
+		"*-south": { "base": "choppingboard:block/choppingstone", "rotateY": 0 },
 		"*-west": { "base": "choppingboard:block/choppingstone", "rotateY": 90 }
 	},
     "texturesByType": {
         "*": {
-		    "topwood": { "base": "game:block/wood/planks/{stone}1" }
+		    "stone": { "base": "game:block/stone/rock/{stone}1" }
         }
     },
     "blockmaterial": "Stone",
@@ -32,9 +32,9 @@
 	},
     "sounds": {
 		"byTool": {
-			"Pickaxe": { "hit": "block/rock-hit-pickaxe", "break": "block/rock-break-pickaxe" }
+			"Pickaxe": { "hit": "game:block/rock-hit-pickaxe", "break": "game:block/rock-break-pickaxe" }
 		},
-        "walk": "walk/stone"
+        "walk": "game:walk/stone"
 	},
     "heldTpIdleAnimation": "onehanded",
     "heldTpUseAnimation": "twohandplaceblock",
@@ -42,14 +42,14 @@
         { 
             "x1": 0,
             "y1": 0,
-            "z1": 0.25,
+            "z1": 0.1875,
             "x2": 1,
             "y2": 0.0625,
             "z2": 0.8125,
             "rotateYByType": {
                 "*-north": 0,
-                "*-east": 270,
-                "*-south": 180,
+                "*-east": 90,
+                "*-south": 0,
                 "*-west": 90
             }
         }
