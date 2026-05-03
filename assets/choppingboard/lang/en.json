@@ -12,5 +12,11 @@
     "choppingboard:block-choppingboard-ebony-ebony-ebony-*": "Chopping Board (Ebony)",
     "choppingboard:block-choppingboard-walnut-walnut-walnut-*": "Chopping Board (Walnut)",
     "choppingboard:block-choppingboard-purpleheart-purpleheart-purpleheart-*": "Chopping Board (Purpleheart)",
-    "choppingboard:block-choppingboard-*": "Chopping Board"
+    "choppingboard:block-choppingboard-*": "Chopping Board",
+
+    "choppingboard:block-choppingstone-chert-*": "Chopping Stone (Chert)",
+    "choppingboard:block-choppingstone-granite-*": "Chopping Stone (Granite)",
+    "choppingboard:block-choppingstone-andesite-*": "Chopping Stone (Andesite)",
+    "choppingboard:block-choppingstone-basalt-*": "Chopping Stone (Basalt)",
+    "choppingboard:block-choppingstone-peridotite-*": "Chopping Stone (Peridotite)"
 }
