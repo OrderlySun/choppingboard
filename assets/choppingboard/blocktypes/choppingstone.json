@@ -1,12 +1,12 @@
 {
     "code": "choppingstone",
     "behaviors": [ { "name": "HorizontalOrientable", "properties": { "dropBlockFace": "north" } }, { "name": "UnstableFalling" } ],
-    "creativeinventory": { "general": ["*-{stone}-north"] },
+    "creativeinventory": { "general": ["*-{rock}-north"] },
     "handbook": {
-		"groupBy": ["choppingboard:choppingstone-{stone}-north"]
+		"groupBy": ["choppingboard:choppingstone-{rock}-north"]
 	},
     "variantgroups": [
-        { "code": "stone", "states": ["chert", "granite", "andesite", "basalt", "peridotite"] },
+        { "code": "rock", "states": ["chert", "granite", "andesite", "basalt", "peridotite"] },
 		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
 	],
     "shapebytype": {
@@ -17,7 +17,7 @@
 	},
     "texturesByType": {
         "*": {
-		    "stone": { "base": "game:block/stone/rock/{stone}1" }
+		    "rock": { "base": "game:block/stone/rock/{rock}1" }
         }
     },
     "blockmaterial": "Stone",
