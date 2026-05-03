@@ -1,7 +1,7 @@
-# Chopping Board
+# Cutting Board
 
 ## Description
-A simple chopping board addition for ACA. Adds a little more interest and immersion to chopping food.
+A simple cutting board addition for ACA. Adds a little more interest and immersion to chopping food.
 
 ## Features
 - Woodtyped chopping boards crafted from three planks.

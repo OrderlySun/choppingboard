@@ -12,6 +12,6 @@
 		"_####_###_",
 		"__######__"
 	]],
-	"name": "Chopping stone",
-	"output": { "type": "block", "code": "choppingboard:choppingstone-{rock}-north" }
+	"name": "Cutting stone",
+	"output": { "type": "block", "code": "cuttingboard:cuttingstone-{rock}-north" }
 }

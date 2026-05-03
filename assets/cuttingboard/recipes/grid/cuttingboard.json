@@ -37,7 +37,7 @@
 
         "output": {
             "type": "block",
-            "code": "choppingboard:choppingboard-{topwood}-{middlewood}-{bottomwood}-north",
+            "code": "cuttingboard:cuttingboard-{topwood}-{middlewood}-{bottomwood}-north",
             "quantity": 1
         }
     }

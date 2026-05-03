@@ -1,9 +1,9 @@
 {
-    "code": "choppingboard",
+    "code": "cuttingboard",
     "behaviors": [ { "name": "HorizontalOrientable", "properties": { "dropBlockFace": "north" } }, { "name": "UnstableFalling" } ],
     "creativeinventory": { "general": ["*-{topwood}-{topwood}-{topwood}-north"] },
     "handbook": {
-		"groupBy": ["choppingboard:choppingboard-{topwood}-{topwood}-{topwood}-north"]
+		"groupBy": ["cuttingboard:cuttingboard-{topwood}-{topwood}-{topwood}-north"]
 	},
     "variantgroups": [
         { "code": "topwood", "loadFromProperties": "block/wood", "states": ["aged"] },
@@ -12,10 +12,10 @@
 		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
 	],
     "shapebytype": {
-		"*-north": { "base": "choppingboard:block/choppingboardv3", "rotateY": 0 },
-		"*-east": { "base": "choppingboard:block/choppingboardv3", "rotateY": 270 },
-		"*-south": { "base": "choppingboard:block/choppingboardv3", "rotateY": 180 },
-		"*-west": { "base": "choppingboard:block/choppingboardv3", "rotateY": 90 }
+		"*-north": { "base": "cuttingboard:block/cuttingboard", "rotateY": 0 },
+		"*-east": { "base": "cuttingboard:block/cuttingboard", "rotateY": 270 },
+		"*-south": { "base": "cuttingboard:block/cuttingboard", "rotateY": 180 },
+		"*-west": { "base": "cuttingboard:block/cuttingboard", "rotateY": 90 }
 	},
     "texturesByType": {
         "*": {

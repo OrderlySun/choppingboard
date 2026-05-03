@@ -1,0 +1,22 @@
+{
+    "cuttingboard:block-cuttingboard-acacia-acacia-acacia-*": "Chopping board (Acacia)",
+    "cuttingboard:block-cuttingboard-aged-aged-aged-*": "Chopping board (Aged)",
+    "cuttingboard:block-cuttingboard-birch-birch-birch-*": "Chopping board (Birch)",
+    "cuttingboard:block-cuttingboard-oak-oak-oak-*": "Chopping board (Oak)",
+    "cuttingboard:block-cuttingboard-maple-maple-maple-*": "Chopping board (Maple)",
+    "cuttingboard:block-cuttingboard-pine-pine-pine-*": "Chopping board (Pine)",
+    "cuttingboard:block-cuttingboard-kapok-kapok-kapok-*": "Chopping board (Kapok)",
+    "cuttingboard:block-cuttingboard-baldcypress-baldcypress-baldcypress-*": "Chopping board (Baldcypress)",
+    "cuttingboard:block-cuttingboard-larch-larch-larch-*": "Chopping board (Larch)",
+    "cuttingboard:block-cuttingboard-redwood-redwood-redwood-*": "Chopping board (Redwood)",
+    "cuttingboard:block-cuttingboard-ebony-ebony-ebony-*": "Chopping board (Ebony)",
+    "cuttingboard:block-cuttingboard-walnut-walnut-walnut-*": "Chopping board (Walnut)",
+    "cuttingboard:block-cuttingboard-purpleheart-purpleheart-purpleheart-*": "Chopping board (Purpleheart)",
+    "cuttingboard:block-cuttingboard-*": "Chopping board",
+
+    "cuttingboard:block-cuttingstone-chert-*": "Chopping stone (Chert)",
+    "cuttingboard:block-cuttingstone-granite-*": "Chopping stone (Granite)",
+    "cuttingboard:block-cuttingstone-andesite-*": "Chopping stone (Andesite)",
+    "cuttingboard:block-cuttingstone-basalt-*": "Chopping stone (Basalt)",
+    "cuttingboard:block-cuttingstone-peridotite-*": "Chopping stone (Peridotite)"
+}

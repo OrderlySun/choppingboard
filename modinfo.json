@@ -1,9 +1,9 @@
 {
   "Type": "content",
-  "ModID": "choppingboard",
-  "Name": "ACA Chopping Board",
-  "Description": "Chopping board for ACA.",
-  "Version": "1.4.6",
+  "ModID": "cuttingboard",
+  "Name": "ACA Cutting Board",
+  "Description": "Cutting board for ACA.",
+  "Version": "1.5.0",
   "NetworkVersion": null,
   "Website": "",
   "Authors": ["OrderlySun"],

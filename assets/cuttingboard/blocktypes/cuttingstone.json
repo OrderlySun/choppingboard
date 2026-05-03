@@ -1,19 +1,19 @@
 {
-    "code": "choppingstone",
+    "code": "cuttingstone",
     "behaviors": [ { "name": "HorizontalOrientable", "properties": { "dropBlockFace": "north" } }, { "name": "UnstableFalling" } ],
     "creativeinventory": { "general": ["*-{rock}-north"] },
     "handbook": {
-		"groupBy": ["choppingboard:choppingstone-{rock}-north"]
+		"groupBy": ["cuttingboard:cuttingstone-{rock}-north"]
 	},
     "variantgroups": [
         { "code": "rock", "states": ["chert", "granite", "andesite", "basalt", "peridotite"] },
 		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
 	],
     "shapebytype": {
-		"*-north": { "base": "choppingboard:block/choppingstone", "rotateY": 0 },
-		"*-east": { "base": "choppingboard:block/choppingstone", "rotateY": 90 },
-		"*-south": { "base": "choppingboard:block/choppingstone", "rotateY": 0 },
-		"*-west": { "base": "choppingboard:block/choppingstone", "rotateY": 90 }
+		"*-north": { "base": "cuttingboard:block/cuttingstone", "rotateY": 0 },
+		"*-east": { "base": "cuttingboard:block/cuttingstone", "rotateY": 90 },
+		"*-south": { "base": "cuttingboard:block/cuttingstone", "rotateY": 0 },
+		"*-west": { "base": "cuttingboard:block/cuttingstone", "rotateY": 90 }
 	},
     "texturesByType": {
         "*": {
