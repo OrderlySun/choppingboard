@@ -1,0 +1,83 @@
+{
+    "code": "choppingstone",
+    "behaviors": [ { "name": "HorizontalOrientable", "properties": { "dropBlockFace": "north" } }, { "name": "UnstableFalling" } ],
+    "creativeinventory": { "general": ["*-{rock}-north"] },
+    "handbook": {
+		"groupBy": ["choppingboard:choppingstone-{rock}-north"]
+	},
+    "variantgroups": [
+        { "code": "rock", "states": ["chert", "granite", "andesite", "basalt", "peridotite"] },
+		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
+	],
+    "shapebytype": {
+		"*-north": { "base": "choppingboard:block/choppingstone", "rotateY": 0 },
+		"*-east": { "base": "choppingboard:block/choppingstone", "rotateY": 90 },
+		"*-south": { "base": "choppingboard:block/choppingstone", "rotateY": 0 },
+		"*-west": { "base": "choppingboard:block/choppingstone", "rotateY": 90 }
+	},
+    "texturesByType": {
+        "*": {
+		    "rock": { "base": "game:block/stone/rock/{rock}1" }
+        }
+    },
+    "blockmaterial": "Stone",
+    "replaceable": 600,
+	"resistance": 2,
+    "lightAbsorption": 0,
+    "sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+    "sounds": {
+		"byTool": {
+			"Pickaxe": { "hit": "game:block/rock-hit-pickaxe", "break": "game:block/rock-break-pickaxe" }
+		},
+        "walk": "game:walk/stone"
+	},
+    "heldTpIdleAnimation": "onehanded",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "collisionSelectionBoxes": [
+        { 
+            "x1": 0,
+            "y1": 0,
+            "z1": 0.1875,
+            "x2": 1,
+            "y2": 0.0625,
+            "z2": 0.8125,
+            "rotateYByType": {
+                "*-north": 0,
+                "*-east": 90,
+                "*-south": 0,
+                "*-west": 90
+            }
+        }
+    ],
+    "guiTransform": {
+		"translation": {
+            "x": 0,
+            "y": 3,
+            "z": 0
+        },
+		"origin": {
+            "x": 0.5,
+            "y": 0.25,
+            "z": 0.5
+        },
+        "scale": 1.6
+	},
+    "tpHandTransform": {
+		"translation": {
+            "x": -0.5,
+            "y": -0.5,
+            "z": 0
+        },
+		"rotation": {
+            "x": 90,
+            "y": 0,
+            "z": 0
+        },
+		"scale": 1
+	}
+}
