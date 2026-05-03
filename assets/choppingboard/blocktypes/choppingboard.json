@@ -12,10 +12,10 @@
 		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
 	],
     "shapebytype": {
-		"*-north": { "base": "choppingboard:block/choppingboard", "rotateY": 0 },
-		"*-east": { "base": "choppingboard:block/choppingboard", "rotateY": 270 },
-		"*-south": { "base": "choppingboard:block/choppingboard", "rotateY": 180 },
-		"*-west": { "base": "choppingboard:block/choppingboard", "rotateY": 90 }
+		"*-north": { "base": "choppingboard:block/choppingboardv3", "rotateY": 0 },
+		"*-east": { "base": "choppingboard:block/choppingboardv3", "rotateY": 270 },
+		"*-south": { "base": "choppingboard:block/choppingboardv3", "rotateY": 180 },
+		"*-west": { "base": "choppingboard:block/choppingboardv3", "rotateY": 90 }
 	},
     "texturesByType": {
         "*": {
