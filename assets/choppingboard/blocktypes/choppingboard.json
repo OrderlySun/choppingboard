@@ -1,9 +1,14 @@
 {
     "code": "choppingboard",
     "behaviors": [ { "name": "HorizontalOrientable", "properties": { "dropBlockFace": "north" } }, { "name": "UnstableFalling" } ],
-    "creativeinventory": { "general": ["*-north"] },
+    "creativeinventory": { "general": ["*-{topwood}-{topwood}-{topwood}-north"] },
+    "handbook": {
+		"groupBy": ["choppingboard:choppingboard-{topwood}-{topwood}-{topwood}-north"]
+	},
     "variantgroups": [
-        { "code": "wood", "states": ["acacia", "birch", "kapok", "maple", "oak", "pine", "aged", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart"] },
+        { "code": "topwood", "loadFromProperties": "block/wood", "states": ["aged"] },
+        { "code": "middlewood", "loadFromProperties": "block/wood", "states": ["aged"] },
+        { "code": "bottomwood", "loadFromProperties": "block/wood", "states": ["aged"] },
 		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
 	],
     "shapebytype": {
@@ -14,7 +19,9 @@
 	},
     "texturesByType": {
         "*": {
-		    "wood": { "base": "game:block/wood/planks/{wood}1" }
+		    "topwood": { "base": "game:block/wood/planks/{topwood}1" },
+            "middlewood": { "base": "game:block/wood/planks/{middlewood}1" },
+            "bottomwood": { "base": "game:block/wood/planks/{bottomwood}1" }
         }
     },
     "blockmaterial": "Wood",

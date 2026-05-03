@@ -1,13 +1,28 @@
 [
     {
-        "ingredientPattern": "PP,PG",
+        "ingredientPattern": "TM,BG",
         "enabled": true,
 
         "ingredients": {
-            "P": {
+            "T": {
                 "type": "item",
                 "code": "game:plank-*",
-                "name": "wood",
+                "name": "topwood",
+                "allowedVariants": ["acacia", "aged", "birch", "oak", "maple", "pine", "kapok", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart"],
+                "quantity": 1
+            },
+            "M": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "middlewood",
+                "allowedVariants": ["acacia", "aged", "birch", "oak", "maple", "pine", "kapok", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart"],
+                "quantity": 1
+            },
+            "B": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "bottomwood",
+                "allowedVariants": ["acacia", "aged", "birch", "oak", "maple", "pine", "kapok", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart"],
                 "quantity": 1
             },
             "G": {
@@ -22,8 +37,8 @@
 
         "output": {
             "type": "block",
-            "code": "choppingboard:choppingboard-{wood}-north",
-            "quantity": 1 
+            "code": "choppingboard:choppingboard-{topwood}-{middlewood}-{bottomwood}-north",
+            "quantity": 1
         }
     }
 ]
